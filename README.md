@@ -1,0 +1,2 @@
+# typicaljs
+Typical JavaScript utility.
