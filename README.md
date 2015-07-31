@@ -2,4 +2,4 @@
 Typical JavaScript utility.
 
 ## Objects
-* **extend** copies properties and their associated values from one or more objects to another
+* **copyProperties** copies the properties from one or more objects into a new one
