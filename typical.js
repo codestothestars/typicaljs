@@ -2,11 +2,11 @@
 (function () {
 	'use strict';
 	
-	if (define === undefined) {
-		window.typical = {};
-	} else {
+	if (typeof define === 'function' && define.amd) {
 		define(['modules/object'], function (object) {
 			return {object: object};
 		});
+	} else {
+		window.typical = {};
 	}
 }());
