@@ -2,8 +2,8 @@
 (function () {
 	'use strict';
 	
-	define(['qunit-1.18.0', 'modules/object'], function (QUnit, object) {
+	define(['qunit-1.18.0', 'modules/array', 'modules/object'], function (QUnit, array, object) {
 		QUnit.start();
-		return {object: object};
+		return {array: array, object: object};
 	});
 }());
