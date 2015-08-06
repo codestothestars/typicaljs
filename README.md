@@ -5,5 +5,5 @@ Typical JavaScript utility.
 * **copyProperties** copies the properties from one or more objects into a new one
 
 ## Arrays
-* **allEqual** determines whether all of the elements in one or more arrays are equal
+* **allEqual** determines whether two or more arrays contain the same elements
 * **remove** removes the first instance of an element from an array
