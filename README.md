@@ -53,4 +53,5 @@ typicaljs adheres to [Semantic Versioning](http://semver.org/)
 
 ##License
 Copyright 2015 Ariel Ryan-Pagano
+
 Licensed under the MIT License
