@@ -30,7 +30,7 @@ typicaljs can be used in any of the following ways:
 * In a basic browser environment, under the global variable `typical`
 
 ##Documentation
-See the [wiki](./wiki) on GitHub.
+See the [wiki](../../wiki) on GitHub.
 
 ##Browser Support
 * Chrome
