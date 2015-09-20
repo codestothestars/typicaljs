@@ -25,7 +25,7 @@ Direct download (each module can be downloaded and used separately):
 
 ##Usage
 typicaljs can be used in any of the following ways:
-* As an [AMD](/amdjs/amdjs-api) module in any AMD module loader, such as [RequireJS](http://requirejs.org/)
+* As an [AMD](../../../../amdjs/amdjs-api) module in any AMD module loader, such as [RequireJS](http://requirejs.org/)
 * As a CommonJS module in any compatible environment, such as [Node.js](https://nodejs.org/)
 * In a basic browser environment, under the global variable `typical`
 
