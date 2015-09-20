@@ -40,16 +40,16 @@ See the [wiki](../../wiki) on GitHub.
 * Internet Explorer 9+
 
 ##Issues
-Open an issue on [GitHub](./issues).
+Open an issue on [GitHub](../../issues).
 
 ##Contributing
-See the [Contributing](./wiki/Contributing) page on the [wiki](./wiki).
+See the [Contributing](../../wiki/Contributing) page on the [wiki](../../wiki).
 
 ##Versioning
 typicaljs adheres to [Semantic Versioning](http://semver.org/)
 
 ##Author/Maintainer
-[Ariel Ryan-Pagano](../)
+[Ariel Ryan-Pagano](../../../)
 
 ##License
 Copyright 2015 Ariel Ryan-Pagano
