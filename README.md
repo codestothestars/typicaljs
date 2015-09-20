@@ -19,9 +19,9 @@ Node:
 * `npm install typicaljs`
 
 Direct download (each module can be downloaded and used separately):
-* [typical.js](./blob/master/dist/typical.js) or [typical.min.js](./blob/master/dist/typical.min.js) (includes all modules)
-* [object.js](./blob/master/dist/modules/object.js) or [object.min.js](./blob/master/dist/modules/object.min.js)
-* [array.js](./blob/master/dist/modules/array.js) or [array.min.js](./blob/master/dist/modules/array.min.js)
+* [typical.js](./dist/typical.js) or [typical.min.js](./dist/typical.min.js) (includes all modules)
+* [object.js](./dist/modules/object.js) or [object.min.js](./dist/modules/object.min.js)
+* [array.js](./dist/modules/array.js) or [array.min.js](./dist/modules/array.min.js)
 
 ##Usage
 typicaljs can be used in any of the following ways:
