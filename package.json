@@ -1,0 +1,24 @@
+{
+  "name": "typicaljs",
+  "version": "0.1.0",
+  "description": "Typical JavaScript utility.",
+  "main": "dist/typical.min.js",
+  "scripts": {
+    "test": "typeof typical.array.equal === 'function' ? 'YAY' : 'BOO'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codethestars/typicaljs.git"
+  },
+  "keywords": [
+    "typical",
+    "object",
+    "array"
+  ],
+  "author": "Ariel Ryan-Pagano <codestothestars@yahoo.com> (https://github.com/codethestars)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codethestars/typicaljs/issues"
+  },
+  "homepage": "https://github.com/codethestars/typicaljs"
+}

@@ -2,12 +2,12 @@
 (function () {
 	'use strict';
 	
-	var object = {
+	define({
 		/*
 		**Copies all of the enumerable own properties from the object arguments to a new object, and returns that object.
 		**If two of the object arguments share a property, the object whose index is greater in "arguments" supercedes the other.
 		*/
-		copyProperties: function () {
+		copy: function () {
 			var newObject = {},
 				i,
 				key,
@@ -24,14 +24,5 @@
 			}
 			return newObject;
 		}
-	};
-	
-	if (typeof define === 'function' && define.amd) {
-		define(object);
-	} else {
-		if (window.typical === undefined) {
-			window.typical = {};
-		}
-		window.typical.object = object;
-	}
+	});
 }());

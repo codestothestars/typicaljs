@@ -1,21 +1,12 @@
-/*
- * typicaljs
- * https://github.com/codethestars/typical.js
- * The Initial Developer of the Original Code is Ariel Ryan-Pagano.
- * Portions created by the Initial Developer are Copyright (C) 2015
- * the Initial Developer. All Rights Reserved.
- *
- * Contributor(s): Ariel Ryan-Pagano <https://github.com/codethestars>
- */
 /*global define*/
 (function () {
 	'use strict';
 	
-	var array = {
+	define({
 		/*
 		**Returns true if the arrays are the same length and the element at each index of each array is strictly equal to the element at the same index of each other array.
 		*/
-		allEqual: function (first) {
+		equal: function (first) {
 			var i, j;
 		
 			for (i = 1; i < arguments.length; i += 1) {
@@ -42,14 +33,5 @@
 			}
 			return false;
 		}
-	};
-	
-	if (typeof define === 'function' && define.amd) {
-		define(array);
-	} else {
-		if (window.typical === undefined) {
-			window.typical = {};
-		}
-		window.typical.array = array;
-	}
+	});
 }());
